@@ -150,6 +150,14 @@ header {
     position: relative;
     
 }
+.shoes-contacts {
+    display: inline-block;
+}
+.shoespng-contacts {
+    width: 40%;
+    position: relative;
+    left: -50px;
+}
 
 
 @media(max-width: 748px) {
@@ -169,6 +177,10 @@ header {
         position: relative;
         top: 350px;
         right: 150px;
+    }
+
+    .shoespng-about {
+        left: 12px;
     }
 }
 
@@ -233,5 +245,14 @@ header {
     }
     .logo {
         max-width: 150px;
+    }
+}
+@media(max-width: 990px) {
+    .content-about {
+        top: 150px;
+    }
+    .contacts {
+        position: relative;
+        top: 300px;
     }
 }
